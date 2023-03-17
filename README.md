@@ -3,7 +3,7 @@
 Get your Firebase project credentials file path and create the environment variable:
 
 ```bash
-export GOOGLE_APPLICATION_CREDENTIALS="/home/user/project-crefentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/project-credentials.json"
 ```
 Create a file `firebase-config.mjs` that exports the firebase app configs, in the root of the project.
 

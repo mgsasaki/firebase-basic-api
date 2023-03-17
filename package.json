@@ -1,15 +1,21 @@
 {
-  "name": "firebase",
+  "name": "my-firebase-cli",
   "version": "1.0.0",
   "description": "",
+  "main": "./bin/index.js",
   "scripts": {
     "generate-token": "node server.mjs",
     "login": "node client.mjs"
   },
+  "bin": {
+    "firebase": "./bin/index.js"
+  },
   "author": "Marcello Gurgel Sasaki",
   "license": "ISC",
   "dependencies": {
+    "esm": "^3.2.25",
     "firebase": "^9.17.2",
-    "firebase-admin": "^11.5.0"
+    "firebase-admin": "^11.5.0",
+    "yargs": "13.2"
   }
 }

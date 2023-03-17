@@ -1,2 +1,4 @@
+.history
 node_modules
-firebase-config.mjs
+*firebase-config.mjs
+*.code-workspace
